@@ -1,4 +1,4 @@
-# ClipPropertiesParser
+# Avisynth ClipProperties to Frame Properties Parser
 Avisynth Clip Properties to Frame Properties parser for FFAStrans internal use.
 <br>
 <br>
