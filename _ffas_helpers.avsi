@@ -205,7 +205,7 @@ function _ffas_helpers(clip)
                               }
               }                
 
-              #We have only transfer
+              #We have only primaries
               else if (Defined(my_matrix) == false && Defined(my_transfer) == false && Defined(my_primaries) == true) {
 
                            #BT709
