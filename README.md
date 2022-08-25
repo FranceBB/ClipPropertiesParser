@@ -15,7 +15,7 @@ The result of this is a series of conditional and try-catch statement that try t
 Even though the function is publicly available, this is made for FFAStrans' filter_builder internal use cases only, therefore you'll see that the interlacing check doesn't really make sense for a normal user. This is because technically in Avisynth there was no way to know the field order and the exact interlacing from the clip properties alone, so we came up with the idea long ago to use AssumeFieldBased() to carry frames in a progressive fashion and AssumeFrameBased() to carry interlaced fields so that we could cross-check the clip properties to know whether it was interlaced TFF, interlaced BFF or progressive 'cause there were no frame properties in the past and now this thing has come back to bite us, but anyway, this is just the reason why the interlacing check wouldn't make sense for a normal user.
 <br>
 <br>
-**Stram delivered without the properties parser**
+**Stream delivered without the properties parser**
 <br>
 ![image](https://user-images.githubusercontent.com/18946343/186724566-33c82580-a3cc-46c4-aca8-264ccaff0a13.png)
 <br>
